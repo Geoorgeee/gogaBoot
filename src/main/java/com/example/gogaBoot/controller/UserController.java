@@ -50,7 +50,7 @@ public class UserController {
     }
 
     @GetMapping("/new")
-    public String CreateUserForm(@ModelAttribute("user") User user) {
+    public String createUserForm(@ModelAttribute("user") User user) {
         return "saveUser";
     }
 }
